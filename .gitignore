@@ -25,3 +25,5 @@ yarn-error.log*
 # ignore the python virtual environment and cashe file - burhop
 venv
 __pycache__
+yarn.lock
+*.zip
