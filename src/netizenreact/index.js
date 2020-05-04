@@ -1,0 +1,1 @@
+export { default as Netizenreact } from "./src/screens/Netizenreact.js";
