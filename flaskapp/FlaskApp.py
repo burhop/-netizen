@@ -17,9 +17,12 @@ def set_name():
 
 @app.route('/mark')
 def set_name2():
-    return 'This was unknown'
+    return 'This was unknown2'
 
 @app.route('/user/<username>')
 def show_user_profile(username):
     # show the user profile for that user
     return 'User %s' % escape(username)
+
+if __name__=="__main__":
+    app.run()
